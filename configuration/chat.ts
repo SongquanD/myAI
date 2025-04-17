@@ -5,3 +5,4 @@ export const DEFAULT_RESPONSE_MESSAGE: string = `Hmmm, this is a good question! 
 export const WORD_CUTOFF: number = 8000; // Number of words until bot says it needs a break
 export const WORD_BREAK_MESSAGE: string = "Let's take a quick breather—just like in a long investment banking case study! Feel free to ask your next question when you're ready.";
 export const HISTORY_CONTEXT_LENGTH: number = 7; // Number of messages to use for context when generating a response
+export const USE_CONTENT_MODERATION: boolean = true; // Whether to use content moderation
